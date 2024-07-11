@@ -1,5 +1,5 @@
 package dbms;
-
+import java.sql.*;
 import java.awt.EventQueue;
 import javax.swing.JFrame;
 import java.awt.Font;
@@ -22,9 +22,9 @@ import javax.swing.SpinnerNumberModel;
 public class MainPage {
 
 	public JFrame frame;
-	static String url = "jdbc:mysql://localhost:3306/mydb?useSSL=false";
+	static String url = "jdbc:mysql://localhost:3306/mydb";
 	static String uname = "root";
-	static String password = "1234";
+	static String password = "P@ssw0rd";
 	static String u_id;
 
 	/**

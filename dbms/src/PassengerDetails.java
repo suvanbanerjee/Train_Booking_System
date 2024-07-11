@@ -31,9 +31,9 @@ public class PassengerDetails {
 	static String src;
 	static String dest;
 	static String day;
-	static String url="jdbc:mysql://localhost:3306/mydb?useSSL=false";
+	static String url="jdbc:mysql://localhost:3306/mydb";
 	static String uname = "root";
-	static String password = "1234";
+	static String password = "P@ssw0rd";
 	static String u_id;
 	static String [] p_name;
 	static int [] pnr;

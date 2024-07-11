@@ -18,7 +18,7 @@ CREATE TABLE `Logins` (
   FOREIGN KEY (`username`) REFERENCES `Users` (`username`) ON DELETE NO ACTION ON UPDATE NO ACTION
 )
 
-INSERT INTO `Logins` VALUES ('admin','admin');
+INSERT INTO `Logins` VALUES ('suvan','admin');
 
 CREATE TABLE `Passengers` (
   `pnr` bigint(10) NOT NULL AUTO_INCREMENT,
